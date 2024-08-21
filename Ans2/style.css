@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 20px;
+}
+
+.patient-dashboard {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.back-icon {
+    font-size: 24px;
+    color: #000;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+}
+
+.patient-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.patient-name h2 {
+    font-size: 18px;
+    color: #333;
+    margin: 0;
+}
+
+.patient-name p {
+    font-size: 14px;
+    color: #777;
+}
+
+.profile-icon {
+    font-size: 30px;
+    color: #333;
+}
+
+.goal-reached {
+    background-color: #1e3b75;
+    color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.progress {
+    font-size: 18px;
+    color: #333;
+}
+
+.metrics {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.metric {
+    background-color: #ffcccc;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-info {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+
+.patient-details {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #333;
+}
+
+.patient-details p {
+    margin: 5px 0;
+}
+
+.patient-details span {
+    font-weight: bold;
+}
+
+.medical-history {
+    margin-top: 20px;
+}
+
+.medical-history h3 {
+    font-size: 16px;
+    margin: 0;
+}
+
+.medical-history p {
+    margin: 5px 0;
+    color: #555;
+}
